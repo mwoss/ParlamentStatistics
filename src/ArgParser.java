@@ -15,10 +15,30 @@ public class ArgParser {
             False - throw exception
 
         Return True
-
-
-
-
-
      */
+    private String[] parsArgs;
+    public ArgParser(String[] args){
+        parsArgs = args;
+    }
+
+    boolean parserArguments(String[] parsArgs){
+        if(parsArgs.length != 2){
+            throw new IllegalArgumentException("Not enough or too many arguments");
+        }
+        else {
+            if(parsArgs[0].matches("VII|vii") || parsArgs[1].matches("VIII|viii")){
+                if(parsArgs[1].matches("[1-7]") || parsArgs[1].matches("") ){
+
+                }
+                else{
+                    throw new IllegalArgumentException("Cannot match certain argument to avtion");
+                }
+            }
+            else{
+                throw new IllegalArgumentException("Not correct cadence ");
+            }
+        }
+        return true;
+    }
+
 }
