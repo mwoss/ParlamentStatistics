@@ -4,6 +4,9 @@
 public class StatisticsSystem {
 
     public static void main(String[] args){
+        // print list of envoys
+        // user can chose one of them
+
 
     }
 
