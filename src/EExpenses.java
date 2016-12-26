@@ -9,7 +9,7 @@ public class EExpenses {
         Lists of small expenses
         List of other expenses
         .
-        .
+        .s
         .
      */
 }
