@@ -47,7 +47,7 @@ public class ArgParser {
         }
         return true;
     }
-    Actions procedureEnum(){ // THIS IS SO NONOPTIMAL, I ALMOST VOMIT
+    private Actions procedureEnum(){ // THIS IS SO NONOPTIMAL, I ALMOST VOMIT
         if(parsArgs[1].equals("1") || parsArgs[1].equals("expenses")) return Actions.Expanses;
         else if(parsArgs[1].equals("2") || parsArgs[1].equals("smallexpenses")) return Actions.SmallExpanses;
         else if(parsArgs[1].equals("3") || parsArgs[1].equals("allexpenses")) return  Actions.AllExpanses;
