@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class EnvoySerializedData {
     @SerializedName("ludzie.id")
-    int ludzie_id;
+    String ludzie_id;
 
     @SerializedName("ludzie.nazwa")
     String ludzie_nazwa;
@@ -14,7 +14,7 @@ public class EnvoySerializedData {
     String ludzie_slug;
 
     @SerializedName("sejm.kluby_id")
-    int sejm_kluby_id;
+    String sejm_kluby_id;
 
     @SerializedName("sejm.kluby_skrot")
     String sejm_kluby_skrot;
@@ -41,7 +41,7 @@ public class EnvoySerializedData {
     String poslowie_wartosc_biuro_taksowki;
 
     @SerializedName("poslowie.sejm_okreg_id")
-    int poslowie_sejm_okreg_id;
+    String poslowie_sejm_okreg_id;
 
     @SerializedName("poslowie.liczba_przelotow")
     String poslowie_liczba_przelotow;
@@ -119,7 +119,7 @@ public class EnvoySerializedData {
     String poslowie_nazwa_odwrocona;
 
     @SerializedName("poslowie.twitter_account_id")
-    int poslowie_twitter_account_id;
+    String poslowie_twitter_account_id;
 
     @SerializedName("poslowie.wartosc_biuro_przejazdy")
     String poslowie_wartosc_biuro_przejazdy;
@@ -131,10 +131,10 @@ public class EnvoySerializedData {
     String poslowie_plec;
 
     @SerializedName("poslowie.kadencja")
-    int poslowie_kadencja[];
+    String poslowie_kadencja[];
 
     @SerializedName("poslowie.id")
-    int poslowie_id;
+    String poslowie_id;
 
     @SerializedName("poslowie.wartosc_refundacja_kwater_pln")
     String poslowie_wartosc_refundacja_kwater_pln;
@@ -167,7 +167,7 @@ public class EnvoySerializedData {
     String poslowie_wartosc_biuro_podroze_pracownikow;
 
     @SerializedName("poslowie.krs_osoba_id")
-    int poslowie_krs_osoba_id;
+    String poslowie_krs_osoba_id;
 
     @SerializedName("poslowie.liczba_podkomisji")
     String poslowie_liczba_podkomisji;
@@ -179,7 +179,7 @@ public class EnvoySerializedData {
     String poslowie_numer_na_liscie;
 
     @SerializedName("poslowie.rozliczenie_id")
-    int poslowie_rozliczenie_id;
+    String poslowie_rozliczenie_id;
 
     @SerializedName("poslowie.pkw_nr_listy")
     String poslowie_pkw_nr_listy;
@@ -203,7 +203,7 @@ public class EnvoySerializedData {
     String poslowie_miejsce_zamieszkania;
 
     @SerializedName("poslowie.mowca_id")
-    int poslowie_mowca_id;
+    String poslowie_mowca_id;
 
     @SerializedName("poslowie.okreg_wyborczy_numer")
     String poslowie_okreg_wyborczy_numer;
