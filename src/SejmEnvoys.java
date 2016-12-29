@@ -8,13 +8,12 @@ import java.util.Map;
 public class SejmEnvoys {
     // consider using list instead of map
     Map<String,Envoy> envoysMap = new HashMap<>();
-    LinkedList<Envoy> ItalyTrip = new LinkedList<>();
+    LinkedList<Envoy> ItalyTrip;
     public int avgExpenses;
     public Envoy maxAmountTrips;
     public Envoy maxTimeTrip;
     public Envoy maxTripPrice;
 
-    // TODO Add objects helping interact with others classes
     // Trzymac to jako plik txt czy pobierac za kazdym razym ze strony?
 
     public int getEnvoyID(){

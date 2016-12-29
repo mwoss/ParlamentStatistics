@@ -1,10 +1,20 @@
+import com.google.gson.annotations.SerializedName;
+
 import java.util.LinkedList;
 
 /**
  * Created by Matthew on 2016-12-16.
  */
 public class EExpenses {
-    LinkedList<String> Expenses1 = new LinkedList<>();
+
+    @SerializedName("liczba_pol")
+    int ludzie_id;
+
+    @SerializedName("liczba_rocznikow")
+    int liczba_rocznikow;
+
+    LinkedList<Points> pointsList;
+    LinkedList<Years> yearsList;
     /*
         Lists of small expenses
         List of other expenses
