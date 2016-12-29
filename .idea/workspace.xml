@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fec255b-469f-451d-9ea3-7cd1e7ae6005" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EnvoySerializedData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Points.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Trips.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Years.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/JSONParser.java" afterPath="$PROJECT_DIR$/src/JsonEnvoys.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EExpenses.java" afterPath="$PROJECT_DIR$/src/EExpenses.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ETrips.java" afterPath="$PROJECT_DIR$/src/ETrips.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Envoy.java" afterPath="$PROJECT_DIR$/src/Envoy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SejmEnvoys.java" afterPath="$PROJECT_DIR$/src/SejmEnvoys.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JsonReader.java" afterPath="$PROJECT_DIR$/src/JsonReader.java" />
     </list>
     <ignored path="SejmStatistics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +28,8 @@
       <file leaf-file-name="JsonReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JsonReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Points.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Points.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Points.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-34">
@@ -105,38 +99,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Statistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#205#206#0" expanded="false" />
-                <element signature="e#229#230#0" expanded="false" />
-                <element signature="e#296#297#0" expanded="false" />
-                <element signature="e#320#321#0" expanded="false" />
-                <element signature="e#401#402#0" expanded="false" />
-                <element signature="e#425#426#0" expanded="false" />
-                <element signature="e#497#498#0" expanded="false" />
-                <element signature="e#524#525#0" expanded="false" />
-                <element signature="e#600#601#0" expanded="false" />
-                <element signature="e#627#628#0" expanded="false" />
-                <element signature="e#701#702#0" expanded="false" />
-                <element signature="e#728#729#0" expanded="false" />
-                <element signature="e#813#814#0" expanded="false" />
-                <element signature="e#840#841#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Envoy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Envoy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonEnvoys.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JsonEnvoys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,15 +165,16 @@
         <option value="$PROJECT_DIR$/src/Actions.java" />
         <option value="$PROJECT_DIR$/src/ArgParser.java" />
         <option value="$PROJECT_DIR$/src/StatisticsSystem.java" />
-        <option value="$PROJECT_DIR$/src/JsonReader.java" />
         <option value="$PROJECT_DIR$/src/EnvoySerializedData.java" />
         <option value="$PROJECT_DIR$/src/Envoy.java" />
-        <option value="$PROJECT_DIR$/src/SejmEnvoys.java" />
         <option value="$PROJECT_DIR$/src/Years.java" />
         <option value="$PROJECT_DIR$/src/EExpenses.java" />
         <option value="$PROJECT_DIR$/src/ETrips.java" />
         <option value="$PROJECT_DIR$/src/Trips.java" />
         <option value="$PROJECT_DIR$/src/Points.java" />
+        <option value="$PROJECT_DIR$/src/SejmEnvoys.java" />
+        <option value="$PROJECT_DIR$/src/JsonReader.java" />
+        <option value="$PROJECT_DIR$/src/JsonEnvoys.java" />
       </list>
     </option>
   </component>
@@ -566,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482890191997</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tweaks on data objects, using serialized names">
+      <created>1482975031062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1482975031062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,7 +608,8 @@
     <MESSAGE value="arg parser finished, tweaks in project template" />
     <MESSAGE value="standart json library doesnt have parser mathodts, too complicated/lazy to write one&#10;- switching to gson, easier to write project with it" />
     <MESSAGE value="using httpurlconnection to read pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="using httpurlconnection to read pages" />
+    <MESSAGE value="tweaks on data objects, using serialized names" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaks on data objects, using serialized names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,7 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JSONParser.java">
+    <entry file="file://$PROJECT_DIR$/src/JsonEnvoys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -964,14 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Actions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1044,24 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JsonReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SejmEnvoys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trips.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1117,6 +1080,34 @@
         <state relative-caret-position="-34">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SejmEnvoys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JsonReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JsonEnvoys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
