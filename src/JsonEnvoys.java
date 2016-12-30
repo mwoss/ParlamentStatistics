@@ -40,6 +40,13 @@ public class JsonEnvoys {
                     JsonElement elementSerializedData = iter.getAsJsonObject().get("data");
                     dataEnvoy.serializedData = dataGson.fromJson(elementSerializedData, SerializedDataEnvoy.class);
 
+                    //*************
+                    EExpenses addE = readEnvoysExpensesFromJSON(dataEnvoy);
+                    ETrips addT = readEnvoyTripsFromJSON(dataEnvoy);
+
+                    dataEnvoy.envoyTrips = addT;
+                    dataEnvoy.envoyExpense = addE;
+                    //*************
                     Envoys.add(dataEnvoy);
                     testiter++; // TO USUNAC TO JEST TYLKO ZEBY TESTOWac NA MALEJ ILOSCI DANYCH
                     if(testiter == 5)
@@ -68,7 +75,7 @@ public class JsonEnvoys {
                                                                                     envoy.id +
                                                                                     ".json?layers[]=wydatki");
         JsonParser parser = new JsonParser();
-        EExpenses envoyExpanes = null;
+        EExpenses envoyExpanes = new EExpenses();
 
         try{
             JsonElement expenses = parser
@@ -99,7 +106,7 @@ public class JsonEnvoys {
 
         }
         catch (IOException e){
-            System.err.println("Problem with getting content from Json");
+            System.err.println("Problem with getting expenses content from Json");
         }
         return envoyExpanes;
     }
@@ -109,7 +116,7 @@ public class JsonEnvoys {
                                                                                 envoy.id +
                                                                                 ".json?layers[]=wyjazdy");
         JsonParser parser = new JsonParser();
-        ETrips envoyTrips = null;
+        ETrips envoyTrips = new ETrips(); // CHECK THIS IF
 
         try{
             JsonElement trips = parser
@@ -119,20 +126,22 @@ public class JsonEnvoys {
                     .getAsJsonObject()
                     .get("wyjazdy");
 
-            if(trips.getAsString().length() != 0){
-                LinkedList<SerializedDataTrips> tripsList = null;
+            if(!trips.isJsonObject()){
+                LinkedList<SerializedDataTrips> tripsList = new LinkedList<>();
                 JsonArray tripsEnovy = trips.getAsJsonArray();
                 Gson dataGson = new Gson();
 
                 for (JsonElement iter : tripsEnovy)
-                    tripsList.add(dataGson.fromJson(trips, SerializedDataTrips.class));
+                    tripsList.add(dataGson.fromJson(iter, SerializedDataTrips.class));
 
                 envoyTrips.tripsList = tripsList;
-
+            }
+            else{
+                return null;
             }
         }
         catch (IOException e){
-            System.err.println("Problem with getting content from Json");
+            System.err.println("Problem with getting trip content from Json");
         }
         return envoyTrips;
     }

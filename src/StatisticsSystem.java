@@ -13,8 +13,7 @@ public class StatisticsSystem {
                 LinkedList<EnvoyData> testList = readEnvoys.readEnvoysFromJSON();
                 System.out.println(testList.get(0).id);
 
-                EExpenses test = readEnvoys.readEnvoysExpensesFromJSON(testList.get(0));
-                System.out.println(test.pointsList.get(0).title);
+
 
 
 
