@@ -6,16 +6,14 @@ import java.util.LinkedList;
  */
 public class PEnvoy {
     public String name;
-    public String secName;
-    public String surname;
+    public String lastname;
     public Integer[] termOfOffice;
     public LinkedList<PEnvoyE> expensesE;
     public LinkedList<PEnvoyT> tripsE;
 
     public PEnvoy(EnvoyData envoy){
         this.name = envoy.serializedData.poslowie_imie_pierwsze;
-        this.secName = envoy.serializedData.poslowie_imie_drugie;
-        this.surname = envoy.serializedData.poslowie_nazwisko;
+        this.lastname = envoy.serializedData.poslowie_nazwisko;
         this.termOfOffice = envoy.serializedData.poslowie_kadencja;
         this.expensesE = PEnvoyE.returnRefactoredExpenses(envoy);
         this.tripsE = PEnvoyT.returnRefactoredTrips(envoy);
@@ -37,7 +35,7 @@ public class PEnvoy {
     }
 
     public String getName(){
-        return this.name + " " + this.secName + " " + this.surname;
+        return this.name + " " + this.lastname;
     }
 
 
