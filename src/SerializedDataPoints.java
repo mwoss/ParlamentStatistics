@@ -8,7 +8,7 @@ public class SerializedDataPoints {
     String title;
 
     @SerializedName("numer")
-    String number;
+    Integer number;
 
 
 

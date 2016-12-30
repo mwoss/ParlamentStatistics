@@ -131,7 +131,7 @@ public class SerializedDataEnvoy {
     String poslowie_plec;
 
     @SerializedName("poslowie.kadencja")
-    String poslowie_kadencja[];
+    Integer[] poslowie_kadencja;
 
     @SerializedName("poslowie.id")
     String poslowie_id;

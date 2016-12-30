@@ -18,6 +18,10 @@ public class SerializedDataTrips {
     String wniosek_nr;
     @SerializedName("liczba_dni")
     String liczba_dni;
+    @SerializedName("od")
+    String odData;
+    @SerializedName("do")
+    String doData;
     @SerializedName("koszt_transport")
     String koszt_transport;
     @SerializedName("koszt_dieta")
