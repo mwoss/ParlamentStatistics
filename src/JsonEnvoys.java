@@ -42,16 +42,10 @@ public class JsonEnvoys {
                     dataEnvoy.serializedData = dataGson.fromJson(elementSerializedData, EnvoySerializedData.class);
 
                     Envoys.add(dataEnvoy);
-                    //testiter++;
+                    testiter++; // TO USUNAC TO JEST TYLKO ZEBY TESTOWac NA MALEJ ILOSCI DANYCH
                     if(testiter == 5)
                         return Envoys;
                 }
-
-
-                // tu powinien byc kod skopiowany ze stacka
-
-                // przerzucic jakos te dane to dabeli jest metoda jsontoarray
-                // przeiterowac sie po kazdej dacie i wyciagac co potrzebne
             }
             catch(IOException e){
                 System.err.println("Problem with getting content from Json");
@@ -68,6 +62,80 @@ public class JsonEnvoys {
             }
         }
         return  Envoys;
+    }
+
+    public EExpenses readEnvoysExpensesFromJSON(Envoy envoy){
+        HttpURLConnection requestExpenses = JsonReader.openHttpURLConnection("https://api-v3.mojepanstwo.pl/dane/poslowie/" +
+                                                                                    envoy.id +
+                                                                                    ".json?layers[]=wydatki");
+        JsonParser parser = new JsonParser();
+        EExpenses envoyExpanes = null;
+
+        try{
+            JsonElement expenses = parser
+                            .parse(new InputStreamReader((InputStream) requestExpenses.getContent()))
+                            .getAsJsonObject()
+                            .get("layers")
+                            .getAsJsonObject()
+                            .get("wydatki");
+
+
+            JsonArray expensesPoints = expenses.getAsJsonObject().get("punkty").getAsJsonArray();
+            JsonArray expensesYears = expenses.getAsJsonObject().get("roczniki").getAsJsonArray();
+
+            LinkedList<Years> yearsList = new LinkedList<>();
+            LinkedList<Points> pointsList = new LinkedList<>();
+
+            Gson dataGson = new Gson();
+
+            for (JsonElement iter : expensesPoints)
+                pointsList.add(dataGson.fromJson(iter, Points.class));
+
+            for (JsonElement iter2 : expensesYears)
+                yearsList.add(dataGson.fromJson(iter2, Years.class));
+
+            envoyExpanes = dataGson.fromJson(expenses, EExpenses.class);
+            envoyExpanes.pointsList = pointsList;
+            envoyExpanes.yearsList = yearsList;
+
+        }
+        catch (IOException e){
+            System.err.println("Problem with getting content from Json");
+        }
+        return envoyExpanes;
+    }
+
+    public ETrips readEnvoyTripsFromJSON(Envoy envoy){
+        HttpURLConnection requestTrips = JsonReader.openHttpURLConnection("https://api-v3.mojepanstwo.pl/dane/poslowie/" +
+                                                                                envoy.id +
+                                                                                ".json?layers[]=wyjazdy");
+        JsonParser parser = new JsonParser();
+        ETrips envoyTrips = null;
+
+        try{
+            JsonElement trips = parser
+                    .parse(new InputStreamReader((InputStream) requestTrips.getContent()))
+                    .getAsJsonObject()
+                    .get("layers")
+                    .getAsJsonObject()
+                    .get("wyjazdy");
+
+            if(trips.getAsString().length() != 0){
+                LinkedList<Trips> tripsList = null;
+                JsonArray tripsEnovy = trips.getAsJsonArray();
+                Gson dataGson = new Gson();
+
+                for (JsonElement iter : tripsEnovy)
+                    tripsList.add(dataGson.fromJson(trips, Trips.class));
+
+                envoyTrips.tripsList = tripsList;
+
+            }
+        }
+        catch (IOException e){
+            System.err.println("Problem with getting content from Json");
+        }
+        return envoyTrips;
     }
 
 }

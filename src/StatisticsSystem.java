@@ -15,6 +15,7 @@ public class StatisticsSystem {
             if(argParser.parserArguments()){
                 JsonEnvoys readEnvoys = new JsonEnvoys();
                 LinkedList<Envoy> testList = readEnvoys.readEnvoysFromJSON();
+                System.out.println(testList.get(0).id);
 
 
 

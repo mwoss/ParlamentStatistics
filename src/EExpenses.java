@@ -8,7 +8,7 @@ import java.util.LinkedList;
 public class EExpenses {
 
     @SerializedName("liczba_pol")
-    int ludzie_id;
+    int liczba_pol;
 
     @SerializedName("liczba_rocznikow")
     int liczba_rocznikow;
