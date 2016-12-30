@@ -6,37 +6,37 @@ import java.util.Map;
  */
 public class Statistics implements IStatistics {
     @Override
-    public int ExpensesFunction(Envoy envoy) {
+    public int ExpensesFunction(EnvoyData envoy) {
         return 0;
     }
 
     @Override
-    public int SmallExpensesFunction(Envoy envoy) {
+    public int SmallExpensesFunction(EnvoyData envoy) {
         return 0;
     }
 
     @Override
-    public int AvgExpensesFunction(Map<String, Envoy> envoyMap) {
-        return 0;
+    public Double AvgExpensesFunction(Map<String, EnvoyData> envoyMap) {
+        return 0.0;
     }
 
     @Override
-    public Envoy TimeTrip(Map<String, Envoy> envoyMap) {
+    public EnvoyData TimeTrip(Map<String, EnvoyData> envoyMap) {
         return null;
     }
 
     @Override
-    public Envoy MaxPriceTrip(Map<String, Envoy> envoyMap) {
+    public EnvoyData MaxPriceTrip(Map<String, EnvoyData> envoyMap) {
         return null;
     }
 
     @Override
-    public Envoy TripAmonut(Map<String, Envoy> envoyMap) {
+    public EnvoyData TripAmonut(Map<String, EnvoyData> envoyMap) {
         return null;
     }
 
     @Override
-    public LinkedList<Envoy> ItalyTrip(Map<String, Envoy> envoyMap) {
+    public LinkedList<EnvoyData> ItalyTrip(Map<String, EnvoyData> envoyMap) {
         return null;
     }
 }

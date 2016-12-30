@@ -1,5 +1,4 @@
 import com.google.gson.*;
-import jdk.nashorn.internal.runtime.JSONFunctions;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,9 +11,9 @@ import java.util.LinkedList;
  */
 public class JsonEnvoys {
 
-    public LinkedList<Envoy> readEnvoysFromJSON(){
+    public LinkedList<EnvoyData> readEnvoysFromJSON(){
 
-        LinkedList<Envoy> Envoys = new LinkedList<>();
+        LinkedList<EnvoyData> Envoys = new LinkedList<>();
         HttpURLConnection request = JsonReader.openHttpURLConnection("https://api-v3.mojepanstwo.pl/dane/poslowie.json");
         JsonParser parser = new JsonParser();
         JsonElement parseTree = null;
@@ -31,15 +30,15 @@ public class JsonEnvoys {
                 for(JsonElement iter : praseTreeArray){
 
                     Gson dataGson = new Gson();
-                    Envoy dataEnvoy = null;
+                    EnvoyData dataEnvoy = null;
                     try {
-                        dataEnvoy = dataGson.fromJson(iter, Envoy.class);
+                        dataEnvoy = dataGson.fromJson(iter, EnvoyData.class);
                     }
                     catch (JsonParseException e){
                         System.err.println("Gson or json data error");
                     }
                     JsonElement elementSerializedData = iter.getAsJsonObject().get("data");
-                    dataEnvoy.serializedData = dataGson.fromJson(elementSerializedData, EnvoySerializedData.class);
+                    dataEnvoy.serializedData = dataGson.fromJson(elementSerializedData, SerializedDataEnvoy.class);
 
                     Envoys.add(dataEnvoy);
                     testiter++; // TO USUNAC TO JEST TYLKO ZEBY TESTOWac NA MALEJ ILOSCI DANYCH
@@ -64,7 +63,7 @@ public class JsonEnvoys {
         return  Envoys;
     }
 
-    public EExpenses readEnvoysExpensesFromJSON(Envoy envoy){
+    public EExpenses readEnvoysExpensesFromJSON(EnvoyData envoy){
         HttpURLConnection requestExpenses = JsonReader.openHttpURLConnection("https://api-v3.mojepanstwo.pl/dane/poslowie/" +
                                                                                     envoy.id +
                                                                                     ".json?layers[]=wydatki");
@@ -83,16 +82,16 @@ public class JsonEnvoys {
             JsonArray expensesPoints = expenses.getAsJsonObject().get("punkty").getAsJsonArray();
             JsonArray expensesYears = expenses.getAsJsonObject().get("roczniki").getAsJsonArray();
 
-            LinkedList<Years> yearsList = new LinkedList<>();
-            LinkedList<Points> pointsList = new LinkedList<>();
+            LinkedList<SerializedDataYears> yearsList = new LinkedList<>();
+            LinkedList<SerializedDataPoints> pointsList = new LinkedList<>();
 
             Gson dataGson = new Gson();
 
             for (JsonElement iter : expensesPoints)
-                pointsList.add(dataGson.fromJson(iter, Points.class));
+                pointsList.add(dataGson.fromJson(iter, SerializedDataPoints.class));
 
             for (JsonElement iter2 : expensesYears)
-                yearsList.add(dataGson.fromJson(iter2, Years.class));
+                yearsList.add(dataGson.fromJson(iter2, SerializedDataYears.class));
 
             envoyExpanes = dataGson.fromJson(expenses, EExpenses.class);
             envoyExpanes.pointsList = pointsList;
@@ -105,7 +104,7 @@ public class JsonEnvoys {
         return envoyExpanes;
     }
 
-    public ETrips readEnvoyTripsFromJSON(Envoy envoy){
+    public ETrips readEnvoyTripsFromJSON(EnvoyData envoy){
         HttpURLConnection requestTrips = JsonReader.openHttpURLConnection("https://api-v3.mojepanstwo.pl/dane/poslowie/" +
                                                                                 envoy.id +
                                                                                 ".json?layers[]=wyjazdy");
@@ -121,12 +120,12 @@ public class JsonEnvoys {
                     .get("wyjazdy");
 
             if(trips.getAsString().length() != 0){
-                LinkedList<Trips> tripsList = null;
+                LinkedList<SerializedDataTrips> tripsList = null;
                 JsonArray tripsEnovy = trips.getAsJsonArray();
                 Gson dataGson = new Gson();
 
                 for (JsonElement iter : tripsEnovy)
-                    tripsList.add(dataGson.fromJson(trips, Trips.class));
+                    tripsList.add(dataGson.fromJson(trips, SerializedDataTrips.class));
 
                 envoyTrips.tripsList = tripsList;
 

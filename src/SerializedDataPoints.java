@@ -3,7 +3,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by Agnieszka on 29.12.2016.
  */
-public class Points {
+public class SerializedDataPoints {
     @SerializedName("tytul")
     String title;
 

@@ -5,14 +5,14 @@ import java.util.Map;
 /**
  * Created by Matthew on 2016-12-16.
  */
-public class SejmEnvoys {
+public class ParlamentEnvoys {
     // consider using list instead of map
-    Map<String,Envoy> envoysMap = new HashMap<>();
-    LinkedList<Envoy> ItalyTrip;
+    Map<String, EnvoyData> envoysMap = new HashMap<>();
+    LinkedList<EnvoyData> ItalyTrip;
     public int avgExpenses;
-    public Envoy maxAmountTrips;
-    public Envoy maxTimeTrip;
-    public Envoy maxTripPrice;
+    public EnvoyData maxAmountTrips;
+    public EnvoyData maxTimeTrip;
+    public EnvoyData maxTripPrice;
 
     // Trzymac to jako plik txt czy pobierac za kazdym razym ze strony?
 

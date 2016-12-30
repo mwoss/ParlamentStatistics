@@ -13,13 +13,7 @@ public class EExpenses {
     @SerializedName("liczba_rocznikow")
     int liczba_rocznikow;
 
-    LinkedList<Points> pointsList;
-    LinkedList<Years> yearsList;
-    /*
-        Lists of small expenses
-        List of other expenses
-        .
-        .s
-        .
-     */
+    LinkedList<SerializedDataPoints> pointsList;
+    LinkedList<SerializedDataYears> yearsList;
+
 }

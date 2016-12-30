@@ -5,11 +5,12 @@ import java.util.LinkedList;
  */
 public interface IOutputStatistics {
 
-    void PrintExpensesFunction(Envoy envoy);
-    void PrintSmallExpensesFunction(Envoy envoy);
+    // Kinda unnecessay 1-2 lines methodes xD
+    void PrintExpensesFunction(EnvoyData envoy);
+    void PrintSmallExpensesFunction(EnvoyData envoy);
     void PrintAvgExpensesFunction(int avgExpenses);
-    void PrintTimeTrip(Envoy maxTimeTrip);
-    void PrintMaxPriceTrip(Envoy maxTripPrice);
-    void TripAmonut(Envoy maxTimeTrip);
-    void PrintItalyTrip(LinkedList<Envoy> ItalyTrip);
+    void PrintTimeTrip(EnvoyData maxTimeTrip);
+    void PrintMaxPriceTrip(EnvoyData maxTripPrice);
+    void TripAmonut(EnvoyData maxTimeTrip);
+    void PrintItalyTrip(LinkedList<EnvoyData> ItalyTrip);
 }

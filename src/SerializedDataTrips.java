@@ -3,7 +3,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by Agnieszka on 29.12.2016.
  */
-public class Trips {
+public class SerializedDataTrips {
     @SerializedName("country_code")
     String country_code;
     @SerializedName("delegacja")

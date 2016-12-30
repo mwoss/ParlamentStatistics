@@ -1,9 +1,7 @@
-import java.util.LinkedList;
-
 /**
  * Created by Matthew on 2016-12-15.
  */
-public class Envoy {
+public class EnvoyData {
     int id;
     String dataset;
     String url;
@@ -14,6 +12,6 @@ public class Envoy {
     String score;
     EExpenses envoyExpense;
     ETrips envoyTrips;
-    EnvoySerializedData serializedData;
+    SerializedDataEnvoy serializedData;
 
 }

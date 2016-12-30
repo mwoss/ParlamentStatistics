@@ -5,12 +5,12 @@ import java.util.LinkedList;
  */
 public class OutputStatistics implements IOutputStatistics{
     @Override
-    public void PrintExpensesFunction(Envoy envoy) {
+    public void PrintExpensesFunction(EnvoyData envoy) {
 
     }
 
     @Override
-    public void PrintSmallExpensesFunction(Envoy envoy) {
+    public void PrintSmallExpensesFunction(EnvoyData envoy) {
 
     }
 
@@ -20,22 +20,22 @@ public class OutputStatistics implements IOutputStatistics{
     }
 
     @Override
-    public void PrintTimeTrip(Envoy maxTimeTrip) {
+    public void PrintTimeTrip(EnvoyData maxTimeTrip) {
 
     }
 
     @Override
-    public void PrintMaxPriceTrip(Envoy maxTripPrice) {
+    public void PrintMaxPriceTrip(EnvoyData maxTripPrice) {
 
     }
 
     @Override
-    public void TripAmonut(Envoy maxTimeTrip) {
+    public void TripAmonut(EnvoyData maxTimeTrip) {
 
     }
 
     @Override
-    public void PrintItalyTrip(LinkedList<Envoy> ItalyTrip) {
+    public void PrintItalyTrip(LinkedList<EnvoyData> ItalyTrip) {
 
     }
 }

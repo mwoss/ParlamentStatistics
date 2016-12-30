@@ -2,5 +2,6 @@
  * Created by Matthew on 2016-12-15.
  */
 public class OutputStatisticsTest {
+    // consider learing groovy
 
 }
