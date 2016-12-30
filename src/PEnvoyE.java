@@ -35,4 +35,11 @@ public class PEnvoyE {
             }
         return listPEnvoyE;
     }
+
+    public Integer getTermOfOffice(){
+        return this.termOfOffice;
+    }
+    public BigDecimal getCash(){
+        return this.cash;
+    }
 }

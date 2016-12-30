@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fec255b-469f-451d-9ea3-7cd1e7ae6005" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PEnvoyE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PEnvoyT.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PEnvoy.java" afterPath="$PROJECT_DIR$/src/PEnvoy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SerializedDataEnvoy.java" afterPath="$PROJECT_DIR$/src/SerializedDataEnvoy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SerializedDataPoints.java" afterPath="$PROJECT_DIR$/src/SerializedDataPoints.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SerializedDataTrips.java" afterPath="$PROJECT_DIR$/src/SerializedDataTrips.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SerializedDataYears.java" afterPath="$PROJECT_DIR$/src/SerializedDataYears.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PEnvoyE.java" afterPath="$PROJECT_DIR$/src/PEnvoyE.java" />
     </list>
     <ignored path="SejmStatistics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,10 +48,14 @@
       <file leaf-file-name="PEnvoyE.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PEnvoyE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="22" column="78" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="645">
+              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEnvoyT.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PEnvoyT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PEnvoyT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="561">
+              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,12 +127,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEnvoy.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PEnvoy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PEnvoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="544">
+              <caret line="32" column="142" lean-forward="false" selection-start-line="32" selection-start-column="142" selection-end-line="32" selection-end-column="142" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,13 +186,13 @@
         <option value="$PROJECT_DIR$/src/OutputStatisticsTest.java" />
         <option value="$PROJECT_DIR$/src/EnvoyData.java" />
         <option value="$PROJECT_DIR$/src/ArgParserTest.java" />
-        <option value="$PROJECT_DIR$/src/PEnvoy.java" />
         <option value="$PROJECT_DIR$/src/SerializedDataYears.java" />
         <option value="$PROJECT_DIR$/src/SerializedDataEnvoy.java" />
         <option value="$PROJECT_DIR$/src/SerializedDataPoints.java" />
-        <option value="$PROJECT_DIR$/src/PEnvoyE.java" />
         <option value="$PROJECT_DIR$/src/SerializedDataTrips.java" />
         <option value="$PROJECT_DIR$/src/PEnvoyT.java" />
+        <option value="$PROJECT_DIR$/src/PEnvoyE.java" />
+        <option value="$PROJECT_DIR$/src/PEnvoy.java" />
       </list>
     </option>
   </component>
@@ -597,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483108195754</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add refatored trips and expenses class, ready for using in calc functions">
+      <created>1483118059973</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1483118059973</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -656,7 +666,8 @@
     <MESSAGE value="proparly reading json data" />
     <MESSAGE value="reading trips and expanses for envoys for json" />
     <MESSAGE value="refactoring classes names readability, adding PEnvoy class, which contains necessary data for Statictics functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring classes names readability, adding PEnvoy class, which contains necessary data for Statictics functions" />
+    <MESSAGE value="Add refatored trips and expenses class, ready for using in calc functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refatored trips and expenses class, ready for using in calc functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1003,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PEnvoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SerializedDataEnvoy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2261">
@@ -1055,16 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PEnvoyE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="22" column="78" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SerializedDataTrips.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1083,10 +1076,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PEnvoyT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="561">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PEnvoyE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PEnvoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="142" lean-forward="false" selection-start-line="32" selection-start-column="142" selection-end-line="32" selection-end-column="142" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
           </folding>
         </state>
       </provider>
