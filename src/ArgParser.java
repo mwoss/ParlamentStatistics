@@ -22,6 +22,11 @@ public class ArgParser {
 
         Return True
      */
+
+    // new conception
+    // term stay the same as b4, but now we dont need 2nd arg, all inf will be written in the same time
+    // our 2dn and 3rd arg gonna be mp's name and lastnane
+    // check if 1st char of 2,3 arg is upper and rest small?
     private Actions procedure;
     private String[] parsArgs;
     public ArgParser(String[] args){

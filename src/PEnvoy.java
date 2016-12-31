@@ -38,5 +38,12 @@ public class PEnvoy {
         return this.name + " " + this.lastname;
     }
 
+    public LinkedList<PEnvoyE> getExpensesE(){
+        return expensesE;
+    }
+    public LinkedList<PEnvoyT> getTripsE(){
+        return tripsE;
+    }
+
 
 }

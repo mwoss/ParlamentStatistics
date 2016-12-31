@@ -40,4 +40,8 @@ public class PEnvoyT {
         }
         return listPEnvoyT;
     }
+
+    public int getDays(){
+        return days;
+    }
 }
