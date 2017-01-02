@@ -24,12 +24,11 @@ public class JsonEnvoys {
                 parseTree = parser.parse(new InputStreamReader((InputStream) request.getContent()));
                 JsonObject parseTreeObject = parseTree.getAsJsonObject();
                 JsonArray praseTreeArray = parseTreeObject.getAsJsonArray("Dataobject");
+                Gson dataGson = new Gson();
 
                 int testiter =0;
 
                 for(JsonElement iter : praseTreeArray){
-
-                    Gson dataGson = new Gson();
                     EnvoyData dataEnvoy = null;
                     try {
                         dataEnvoy = dataGson.fromJson(iter, EnvoyData.class);
@@ -136,9 +135,7 @@ public class JsonEnvoys {
 
                 envoyTrips.tripsList = tripsList;
             }
-            else{
-                return null;
-            }
+
         }
         catch (IOException e){
             System.err.println("Problem with getting trip content from Json");

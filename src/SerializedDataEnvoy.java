@@ -214,3 +214,4 @@ public class SerializedDataEnvoy {
     @SerializedName("poslowie.wartosc_biuro_srodki_trwale")
     String poslowie_wartosc_biuro_srodki_trwale;
 }
+

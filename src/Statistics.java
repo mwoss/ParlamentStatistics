@@ -1,7 +1,6 @@
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -63,7 +62,12 @@ public class Statistics implements IStatistics {
         else
             temp = eighth.stream();
 
-        return null;
+        return Stream.concat(temp,Stream.empty())
+                .collect(Collectors.toList())
+                .stream()
+                .sorted ((v1,v2) -> Integer.compare(v2.tripsE.stream().mapToInt(PEnvoyT::getDays).max().orElse(0), v1.tripsE.stream().mapToInt(PEnvoyT::getDays).max().orElse(0)))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Something goes wrong. TimeTrip function"));
     }
 
     @Override
@@ -73,7 +77,14 @@ public class Statistics implements IStatistics {
             temp = seventh.stream();
         else
             temp = eighth.stream();
-        return null;
+
+        return Stream.concat(temp,Stream.empty())
+                .collect(Collectors.toList())
+                .stream()
+                .sorted((v1,v2) -> v2.tripsE.stream().map(f -> f.allCash).reduce(BigDecimal.ZERO,BigDecimal::max).compareTo(v1.tripsE.stream().map(f -> f.allCash).reduce(BigDecimal.ZERO,BigDecimal::max)))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Something goes wrong. MaxPriceTrp function"));
+
     }
 
     @Override
@@ -87,9 +98,9 @@ public class Statistics implements IStatistics {
         return Stream.concat(temp,Stream.empty())
                 .collect(Collectors.toList())
                 .stream()
-                .sorted( (x,y) -> Integer.compare(x.tripsE.size(), y.tripsE.size())) // check if intelij has right
+                .sorted( (v1,v2) -> Integer.compare(v1.tripsE.size(), v2.tripsE.size())) // check if intelij has right
                 .findFirst()
-                .orElseThrow( () -> new IllegalArgumentException("Something goes wrong") );
+                .orElseThrow( () -> new IllegalArgumentException("Something goes wrong. TripAmount fucntion.") );
     }
 
     @Override
