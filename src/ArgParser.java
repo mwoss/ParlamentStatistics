@@ -1,13 +1,8 @@
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * Created by Matthew on 2016-12-15.
  */
 public class ArgParser {
-    private static final Set<String> validOptions = new HashSet<>(Arrays.asList("expenses", "smallexpenses", "allexpenses",
-                                                                                "tripamountmax", "triptimemax", "tripcostmax", "tripitaly"));
+
     // not have to implement romantodecimal, ther's only 2 possible Roman's number as arg
     /*
         Command line should have 2 arguments
@@ -27,6 +22,8 @@ public class ArgParser {
     // term stay the same as b4, but now we dont need 2nd arg, all inf will be written in the same time
     // our 2dn and 3rd arg gonna be mp's name and lastnane
     // check if 1st char of 2,3 arg is upper and rest small?
+    /*private static final Set<String> validOptions = new HashSet<>(Arrays.asList("expenses", "smallexpenses", "allexpenses",
+            "tripamountmax", "triptimemax", "tripcostmax", "tripitaly"));
     private Actions procedure;
     private String[] parsArgs;
     public ArgParser(String[] args){
@@ -65,5 +62,25 @@ public class ArgParser {
     public Actions getProcedure(){
         return procedure;
     }
+*/
+    private String[] parsArgs;
 
+    public ArgParser(String[] args) {
+        parsArgs = args;
+    }
+
+    boolean parserArguments() {
+        if (parsArgs.length != 3) {
+            throw new IllegalArgumentException("Not enough or too many arguments");
+        } else {
+            if (parsArgs[0].matches("VII|vii") || parsArgs[1].matches("VIII|viii")) {
+                if (!(parsArgs[1].toLowerCase().matches("[a-z]+") && parsArgs[1].toLowerCase().matches("[a-z]+"))) {
+                    throw new IllegalArgumentException("First name or last name contains incorrect symbols");
+                } else {
+                    throw new NumberFormatException("Wrong cadence");
+                }
+            }
+            return true;
+        }
+    }
 }

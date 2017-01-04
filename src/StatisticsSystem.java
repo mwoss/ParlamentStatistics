@@ -14,7 +14,7 @@ public class StatisticsSystem {
                 LinkedList<EnvoyData> testList = readEnvoys.readEnvoysFromJSON();
                 System.out.println(testList.get(1).envoyTrips.tripsList.get(0).country_code);
                 //Statistics statistics = new Statistics();
-                //System.out.println(Statistics.);
+               // System.out.println(Statistics);
                 final long endtime = System.currentTimeMillis();
                 System.out.println(endtime-startTime);
 
@@ -29,7 +29,7 @@ public class StatisticsSystem {
             }
 
         }
-        catch (IllegalArgumentException  e) {
+        catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
         // print list of envoys
