@@ -12,11 +12,11 @@ public class StatisticsSystem {
                 final long startTime = System.currentTimeMillis();
                 JsonEnvoys readEnvoys = new JsonEnvoys();
                 LinkedList<EnvoyData> testList = readEnvoys.readEnvoysFromJSON();
-                System.out.println(testList.get(1).envoyTrips.tripsList.get(0).country_code);
+                System.out.println(testList.get(0).envoyTrips.tripsList.get(0).country_code);
                 //Statistics statistics = new Statistics();
                // System.out.println(Statistics);
                 final long endtime = System.currentTimeMillis();
-                System.out.println(endtime-startTime);
+                System.out.println("Downloading files takes "+(endtime-startTime)/1000.0 + " seconds");
 
 
 

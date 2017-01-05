@@ -71,14 +71,15 @@ public class ArgParser {
 
     boolean parserArguments() {
         if (parsArgs.length != 3) {
-            throw new IllegalArgumentException("Not enough or too many arguments");
+            throw new IllegalArgumentException("Not enough or too many arguments. Command line should looks like: Cadence FristName LastName");
         } else {
-            if (parsArgs[0].matches("VII|vii") || parsArgs[1].matches("VIII|viii")) {
+            if (parsArgs[0].matches("7") || parsArgs[1].matches("8")) {
                 if (!(parsArgs[1].toLowerCase().matches("[a-z]+") && parsArgs[1].toLowerCase().matches("[a-z]+"))) {
+
                     throw new IllegalArgumentException("First name or last name contains incorrect symbols");
-                } else {
-                    throw new NumberFormatException("Wrong cadence");
                 }
+            } else {
+                throw new NumberFormatException("Wrong cadence. You can choose 7th or 8th cadence.");
             }
             return true;
         }
