@@ -65,4 +65,15 @@ public class OutputStatistics implements IOutputStatistics{
         statistics.ItalyTrip(term).forEach(System.out::println);
 
     }
+    public void printAll(){
+        System.out.println("You've chosen envoy: "+ firstname + " " + lastname);
+        this.PrintExpensesFunction();
+        this.PrintSmallExpensesFunction();
+        this.PrintAvgExpensesFunction();
+        this.PrintTimeTrip();
+        this.TripAmonut();
+        this.PrintMaxPriceTrip();
+        this.PrintItalyTrip();
+    }
+
 }

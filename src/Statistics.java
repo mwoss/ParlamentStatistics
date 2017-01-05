@@ -38,12 +38,18 @@ public class Statistics implements IStatistics {
     @Override
     public BigDecimal AvgExpensesFunction(Integer termOfOffice) {
         Stream<PEnvoy> temp;
-       if(termOfOffice == 7)
+        LinkedList<PEnvoy> list;
+       if(termOfOffice == 7){
            temp = seventh.stream();
-       else
+           list = seventh;
+       }
+       else{
            temp = eighth.stream();
+           list = eighth;
+       }
 
-       BigDecimal amount = new BigDecimal(460);
+
+       BigDecimal amount = new BigDecimal(list.size());
        BigDecimal allCash = Stream.concat(temp,Stream.empty()) // flatmap aby sciasnac do jednego poziomu wartosci z roznych tytulow
                .flatMap(x -> x.getExpensesE().stream())
                .map(PEnvoyE::getCash)
