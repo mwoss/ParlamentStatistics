@@ -27,7 +27,7 @@ public class PEnvoyT {
                 }
                 else{
                     if(Integer.parseInt(trips.doData.substring(0, 4)) <= 2015
-                            && Integer.parseInt(trips.doData.substring(5, 7)) <= 10
+                            && Integer.parseInt(trips.doData.substring(4, 6)) <= 10
                             && Integer.parseInt(trips.doData.substring(8)) < 25){
 
                         retData.termOfOffice = 7;
@@ -36,6 +36,7 @@ public class PEnvoyT {
                         retData.termOfOffice = 8;
                     }
                 }
+                listPEnvoyT.add(retData);
             }
         }
         return listPEnvoyT;

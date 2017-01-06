@@ -17,6 +17,7 @@ public class Statistics implements IStatistics {
         JsonEnvoys readEnvoys = new JsonEnvoys();
         LinkedList<EnvoyData> EList = readEnvoys.readEnvoysFromJSON();
 
+
         this.seventh = EList.stream().map(PEnvoy::new)
                 .filter(x -> Arrays.asList(x.termOfOffice).contains(7))
                 .collect(Collectors.toCollection(LinkedList::new));
@@ -104,7 +105,7 @@ public class Statistics implements IStatistics {
         return Stream.concat(temp,Stream.empty())
                 .collect(Collectors.toList())
                 .stream()
-                .sorted( (v1,v2) -> Integer.compare(v1.tripsE.size(), v2.tripsE.size())) // check if intelij has right
+                .sorted( (v1,v2) -> Integer.compare(v2.tripsE.size(), v1.tripsE.size())) // check if intelij has right
                 .findFirst()
                 .orElseThrow( () -> new IllegalArgumentException("Something goes wrong. TripAmount fucntion.") );
     }
@@ -118,6 +119,8 @@ public class Statistics implements IStatistics {
             temp = eighth.stream();
 
         return Stream.concat(temp,Stream.empty())
+                .collect(Collectors.toList())
+                .stream()
                 .filter(x -> x.getTripsE().stream().anyMatch(f -> f.country.equals("Włochy")))
                 .collect(Collectors.toCollection(LinkedList::new));
     }

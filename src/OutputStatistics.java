@@ -67,6 +67,9 @@ public class OutputStatistics implements IOutputStatistics{
     }
     public void printAll(){
         System.out.println("You've chosen envoy: "+ firstname + " " + lastname);
+        System.out.println(term == 7 ? "Term of office: VII" : "Term of office: VII");
+        System.out.println("If information about envoy's expenses show \"0\", it is caused lack of data in json files.\n");
+
         this.PrintExpensesFunction();
         this.PrintSmallExpensesFunction();
         this.PrintAvgExpensesFunction();

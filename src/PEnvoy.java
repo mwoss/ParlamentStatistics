@@ -37,6 +37,10 @@ public class PEnvoy {
     public String getName(){
         return this.name + " " + this.lastname;
     }
+    @Override
+    public String toString(){
+        return this.name + " " + this.lastname;
+    }
 
     public LinkedList<PEnvoyE> getExpensesE(){
         return expensesE;
