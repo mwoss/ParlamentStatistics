@@ -37,8 +37,15 @@ public class OutputStatistics implements IOutputStatistics{
 
     @Override
     public void PrintTimeTrip() {
-        System.out.println("Envoys who was the longest time abroad:");
+        System.out.println("Envoys who was the longest time abroad on single trip:");
         PEnvoy ret = statistics.TimeTrip(term);
+        System.out.println(ret.getName());
+
+    }
+    @Override
+    public void PrintTimeTrippAll() {
+        System.out.println("Envoys who was the longest time abroad in general:");
+        PEnvoy ret = statistics.TimeTripAll(term);
         System.out.println(ret.getName());
 
     }
@@ -74,6 +81,7 @@ public class OutputStatistics implements IOutputStatistics{
         this.PrintSmallExpensesFunction();
         this.PrintAvgExpensesFunction();
         this.PrintTimeTrip();
+        this.PrintTimeTrippAll();
         this.TripAmonut();
         this.PrintMaxPriceTrip();
         this.PrintItalyTrip();

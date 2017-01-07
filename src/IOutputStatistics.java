@@ -6,6 +6,7 @@ public interface IOutputStatistics {
     void PrintSmallExpensesFunction();
     void PrintAvgExpensesFunction();
     void PrintTimeTrip();
+    void PrintTimeTrippAll();
     void PrintMaxPriceTrip();
     void TripAmonut();
     void PrintItalyTrip();

@@ -78,6 +78,21 @@ public class Statistics implements IStatistics {
     }
 
     @Override
+    public PEnvoy TimeTripAll(Integer termOfOffice) {
+        Stream<PEnvoy> temp;
+        if(termOfOffice == 7)
+            temp = seventh.stream();
+        else
+            temp = eighth.stream();
+
+        return Stream.concat(temp,Stream.empty())
+                .collect(Collectors.toList())
+                .stream()
+                .sorted ((v1,v2) -> Integer.compare(v2.tripsE.stream().mapToInt(PEnvoyT::getDays).sum(), v1.tripsE.stream().mapToInt(PEnvoyT::getDays).sum()))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Something goes wrong. TimeTrip function"));
+    }
+    @Override
     public PEnvoy MaxPriceTrip(Integer termOfOffice) {
         Stream<PEnvoy> temp;
         if(termOfOffice == 7)
