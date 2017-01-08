@@ -10,7 +10,7 @@ public class StatisticsSystem {
                 final long startTime = System.currentTimeMillis();
                 OutputStatistics outputData = new OutputStatistics(args);
                 final long endtime = System.currentTimeMillis();
-                System.out.println("Downloading files took "+(endtime-startTime)/1000.0 + " seconds");
+                System.out.println("Calculations/downloading files took "+(endtime-startTime)/1000.0 + " seconds");
                 outputData.printAll();
             }
         }

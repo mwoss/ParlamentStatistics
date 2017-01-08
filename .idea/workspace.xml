@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fec255b-469f-451d-9ea3-7cd1e7ae6005" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jcommander.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/testng.jar" />
+    <list default="true" id="7fec255b-469f-451d-9ea3-7cd1e7ae6005" name="Default" comment="Probably finished. Added: timetrip in general method(time trip is divided on single and general time). Deleted jsonreader class which contained httpurlconnection method. Refactored code a bit.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/1179.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/1179.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/261.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/261.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/268.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/268.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/271.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/271.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/354.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/354.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/1179.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/1179.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/261.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/261.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/268.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/268.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/271.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/271.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/354.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/354.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 0.json" afterPath="$PROJECT_DIR$/Sources/MpList 0.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 1.json" afterPath="$PROJECT_DIR$/Sources/MpList 1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 10.json" afterPath="$PROJECT_DIR$/Sources/MpList 10.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 11.json" afterPath="$PROJECT_DIR$/Sources/MpList 11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 12.json" afterPath="$PROJECT_DIR$/Sources/MpList 12.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 13.json" afterPath="$PROJECT_DIR$/Sources/MpList 13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 14.json" afterPath="$PROJECT_DIR$/Sources/MpList 14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 2.json" afterPath="$PROJECT_DIR$/Sources/MpList 2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 3.json" afterPath="$PROJECT_DIR$/Sources/MpList 3.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 4.json" afterPath="$PROJECT_DIR$/Sources/MpList 4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 5.json" afterPath="$PROJECT_DIR$/Sources/MpList 5.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 6.json" afterPath="$PROJECT_DIR$/Sources/MpList 6.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 7.json" afterPath="$PROJECT_DIR$/Sources/MpList 7.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 8.json" afterPath="$PROJECT_DIR$/Sources/MpList 8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 9.json" afterPath="$PROJECT_DIR$/Sources/MpList 9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JsonEnvoys.java" afterPath="$PROJECT_DIR$/src/JsonEnvoys.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StatisticsSystem.java" afterPath="$PROJECT_DIR$/src/StatisticsSystem.java" />
     </list>
     <ignored path="SejmStatistics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +53,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Statistics.java">
+      <file leaf-file-name="PEnvoy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PEnvoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="90" column="156" selection-start-line="90" selection-start-column="156" selection-end-line="90" selection-end-column="156" />
+            <state relative-caret-position="323">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonEnvoys.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JsonEnvoys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,21 +75,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatisticsSystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatisticsSystem.java">
+      <file leaf-file-name="IStatistics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+            <state relative-caret-position="187">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEnvoyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PEnvoyTest.java">
+      <file leaf-file-name="IOutputStatistics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IOutputStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ETrips.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ETrips.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnvoyData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EnvoyData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EExpenses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EExpenses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -72,62 +135,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEnvoyT.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PEnvoyT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializedDataEnvoy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SerializedDataEnvoy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2159">
-              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializedDataPoints.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SerializedDataPoints.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializedDataTrips.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SerializedDataTrips.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializedDataYears.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SerializedDataYears.java">
+      <file leaf-file-name="StatisticsSystem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StatisticsSystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEnvoyE.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PEnvoyE.java">
+      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Statistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="1462">
+              <caret line="90" column="156" selection-start-line="90" selection-start-column="156" selection-end-line="90" selection-end-column="156" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,22 +201,22 @@
         <option value="$PROJECT_DIR$/src/JsonReader.java" />
         <option value="$PROJECT_DIR$/test/StatisticsTest.java" />
         <option value="$PROJECT_DIR$/test/PEnvoyTest.java" />
-        <option value="$PROJECT_DIR$/src/StatisticsSystem.java" />
         <option value="$PROJECT_DIR$/src/PEnvoy.java" />
         <option value="$PROJECT_DIR$/src/ArgParser.java" />
         <option value="$PROJECT_DIR$/test/ArgParserTest.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/test/ArgParserTest.java" />
         <option value="$PROJECT_DIR$/SejmStatistics.iml" />
-        <option value="$PROJECT_DIR$/src/ArgParserTest.java" />
         <option value="$PROJECT_DIR$/src/PEnvoyTest.java" />
         <option value="$PROJECT_DIR$/src/StatisticsTest.java" />
         <option value="$PROJECT_DIR$/src/IStatistics.java" />
         <option value="$PROJECT_DIR$/src/Statistics.java" />
         <option value="$PROJECT_DIR$/src/IOutputStatistics.java" />
         <option value="$PROJECT_DIR$/src/OutputStatistics.java" />
-        <option value="$PROJECT_DIR$/src/JsonEnvoys.java" />
         <option value="$PROJECT_DIR$/src/PEnvoyT.java" />
+        <option value="$PROJECT_DIR$/src/ArgParserTest.java" />
+        <option value="$PROJECT_DIR$/src/JsonEnvoys.java" />
+        <option value="$PROJECT_DIR$/src/StatisticsSystem.java" />
       </list>
     </option>
   </component>
@@ -233,9 +258,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,10 +294,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/AGH/Obiekty/SejmStatistics" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/SejmStatistics" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.18390805" />
@@ -307,34 +332,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="SejmStatistics" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="StatisticsTest.ItalyTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SejmStatistics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StatisticsTest" />
-      <option name="METHOD_NAME" value="ItalyTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="false" name="StatisticsTest.MaxtimeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -404,6 +401,34 @@
       <option name="METHOD_NAME" value="mostexpTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="StatisticsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SejmStatistics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StatisticsTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -668,18 +693,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.StatisticsSystem" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.StatisticsTest.ItalyTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.StatisticsTest.MaxtimeTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.StatisticsTest.maxamounttripTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.StatisticsTest.mostexpTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.StatisticsTest.MaxtimeTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.StatisticsTest.maxamounttripTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.StatisticsTest.mostexpTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.StatisticsTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.StatisticsSystem" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.StatisticsTest.mostexpTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.StatisticsTest.maxamounttripTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.StatisticsTest.MaxtimeTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.StatisticsTest.ItalyTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.StatisticsTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.StatisticsTest.mostexpTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.StatisticsTest.maxamounttripTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.StatisticsTest.MaxtimeTest" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -883,14 +908,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PEnvoyTest - 2017.01.07 at 02h 00m 49s.xml">
-      <configuration name="PEnvoyTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PEnvoyTest_EnvoySmallExpText - 2017.01.07 at 02h 03m 09s.xml">
       <configuration name="PEnvoyTest.EnvoySmallExpText" configurationId="TestNG" />
     </history-entry>
     <history-entry file="PEnvoyTest_EnvoySmallExpText - 2017.01.07 at 02h 03m 20s.xml">
       <configuration name="PEnvoyTest.EnvoySmallExpText" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatisticsTest - 2017.01.08 at 23h 12m 09s.xml">
+      <configuration name="StatisticsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="StatisticsTest_ItalyTest - 2017.01.07 at 03h 45m 47s.xml">
       <configuration name="StatisticsTest.ItalyTest" configurationId="TestNG" />
@@ -916,20 +941,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32575756" sideWeight="0.49555555" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41798106" sideWeight="0.37335286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2608225" sideWeight="0.6266472" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25974026" sideWeight="0.6266472" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13859275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13859275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -941,7 +967,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32575756" sideWeight="0.49555555" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30810234" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1113,8 +1138,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OutputStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="1411">
           <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,13 +1148,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="47" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArgParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1136,20 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnvoyData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ETrips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1158,6 +1174,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,13 +1187,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JsonReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/JsonEnvoys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PEnvoy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1189,7 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,7 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2159">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +1234,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PEnvoyT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1243,11 +1254,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatisticsSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/ETrips.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EnvoyData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JsonEnvoys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,10 +1288,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PEnvoyT.java">
+    <entry file="file://$PROJECT_DIR$/src/StatisticsSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding />
         </state>
       </provider>
