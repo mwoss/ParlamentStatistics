@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.util.LinkedList;
-import java.util.Scanner;
 
 /**
  * Created by Student30 on 2016-12-16.
@@ -23,16 +22,6 @@ public class JsonEnvoys {
             File SDir = new File("./Sources");
             if (!SDir.exists())
                 SDir.mkdir();
-            else {
-                System.out.println("File already exists. Do you want to make an update? Press \"y\" if yes, press any key if no.");
-                Scanner s= new Scanner(System.in);
-                char x = s.next().charAt(0);
-                if(x == 'y'){
-                    System.out.println("Updating. Pleas wait.");
-                    this.update();
-                }
-            }
-
 
             File SwDir = new File ("./Sources/DetailsExpenses");
             if(!SwDir.exists())
