@@ -10,11 +10,11 @@ public class StatisticsSystem {
         try{
             ArgParser argParser = new ArgParser(args); // Passing command line to checkFunction (consider static!)
             if(argParser.parserArguments()){
-                final long startTime = System.currentTimeMillis();
-                System.out.println("File are included in programme. Do you want to make an update? Press \"y\" if yes, press any key if no.");
+                System.out.println("File are included in programme. Do you want to make an update? Press \"y\" then enter if yes, press any key then enter if no.");
                 System.out.println("This will probably take few minutes.");
                 Scanner s= new Scanner(System.in);
                 char x = s.next().charAt(0);
+                final long startTime = System.currentTimeMillis();
                 if(x == 'y'){
                     System.out.println("Updating. Pleas wait.");
                     JsonEnvoys update = new JsonEnvoys();

@@ -3,32 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7fec255b-469f-451d-9ea3-7cd1e7ae6005" name="Default" comment="Probably finished. Added: timetrip in general method(time trip is divided on single and general time). Deleted jsonreader class which contained httpurlconnection method. Refactored code a bit.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/1179.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/1179.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/261.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/261.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/268.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/268.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/271.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/271.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsExpenses/354.json" afterPath="$PROJECT_DIR$/Sources/DetailsExpenses/354.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/1179.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/1179.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/261.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/261.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/268.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/268.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/271.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/271.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/DetailsTrips/354.json" afterPath="$PROJECT_DIR$/Sources/DetailsTrips/354.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 0.json" afterPath="$PROJECT_DIR$/Sources/MpList 0.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 1.json" afterPath="$PROJECT_DIR$/Sources/MpList 1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 10.json" afterPath="$PROJECT_DIR$/Sources/MpList 10.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 11.json" afterPath="$PROJECT_DIR$/Sources/MpList 11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 12.json" afterPath="$PROJECT_DIR$/Sources/MpList 12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 13.json" afterPath="$PROJECT_DIR$/Sources/MpList 13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 14.json" afterPath="$PROJECT_DIR$/Sources/MpList 14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 2.json" afterPath="$PROJECT_DIR$/Sources/MpList 2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 3.json" afterPath="$PROJECT_DIR$/Sources/MpList 3.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 4.json" afterPath="$PROJECT_DIR$/Sources/MpList 4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 5.json" afterPath="$PROJECT_DIR$/Sources/MpList 5.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 6.json" afterPath="$PROJECT_DIR$/Sources/MpList 6.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 7.json" afterPath="$PROJECT_DIR$/Sources/MpList 7.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 8.json" afterPath="$PROJECT_DIR$/Sources/MpList 8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/MpList 9.json" afterPath="$PROJECT_DIR$/Sources/MpList 9.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JsonEnvoys.java" afterPath="$PROJECT_DIR$/src/JsonEnvoys.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OutputStatistics.java" afterPath="$PROJECT_DIR$/src/OutputStatistics.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StatisticsSystem.java" afterPath="$PROJECT_DIR$/src/StatisticsSystem.java" />
     </list>
     <ignored path="SejmStatistics.iws" />
@@ -53,54 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PEnvoy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PEnvoy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JsonEnvoys.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JsonEnvoys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IStatistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IStatistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOutputStatistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IOutputStatistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ETrips.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ETrips.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -118,18 +53,48 @@
       <file leaf-file-name="StatisticsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StatisticsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="255">
               <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatisticsSystem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/StatisticsSystem.java">
+      <file leaf-file-name="SerializedDataYears.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SerializedDataYears.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            <state relative-caret-position="204">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PEnvoyE.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PEnvoyE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PEnvoyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PEnvoyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgParserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArgParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,11 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutputStatistics.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StatisticsSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StatisticsSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="148" selection-start-line="12" selection-start-column="148" selection-end-line="12" selection-end-column="148" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputStatistics.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OutputStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+            <state relative-caret-position="802">
+              <caret line="77" column="94" selection-start-line="77" selection-start-column="94" selection-end-line="77" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -150,7 +125,7 @@
       <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Statistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1446">
+            <state relative-caret-position="836">
               <caret line="90" column="156" selection-start-line="90" selection-start-column="156" selection-end-line="90" selection-end-column="156" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -214,11 +189,11 @@
         <option value="$PROJECT_DIR$/src/IStatistics.java" />
         <option value="$PROJECT_DIR$/src/Statistics.java" />
         <option value="$PROJECT_DIR$/src/IOutputStatistics.java" />
-        <option value="$PROJECT_DIR$/src/OutputStatistics.java" />
         <option value="$PROJECT_DIR$/src/PEnvoyT.java" />
         <option value="$PROJECT_DIR$/src/ArgParserTest.java" />
         <option value="$PROJECT_DIR$/src/JsonEnvoys.java" />
         <option value="$PROJECT_DIR$/src/StatisticsSystem.java" />
+        <option value="$PROJECT_DIR$/src/OutputStatistics.java" />
       </list>
     </option>
   </component>
@@ -261,13 +236,17 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SejmStatistics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -296,14 +275,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/SejmStatistics" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.18390805" />
+    <property name="project.structure.side.proportion" value="0.2954023" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -334,62 +313,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="SejmStatistics" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="StatisticsTest.MaxtimeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SejmStatistics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StatisticsTest" />
-      <option name="METHOD_NAME" value="MaxtimeTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="StatisticsTest.maxamounttripTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SejmStatistics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StatisticsTest" />
-      <option name="METHOD_NAME" value="maxamounttripTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="false" name="StatisticsTest.mostexpTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -428,6 +351,62 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StatisticsTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="PEnvoyTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SejmStatistics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PEnvoyTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArgParserTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SejmStatistics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArgParserTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -695,18 +674,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.StatisticsSystem" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.StatisticsTest.MaxtimeTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.StatisticsTest.maxamounttripTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.StatisticsTest.mostexpTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.StatisticsTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.StatisticsTest.mostexpTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.StatisticsTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.PEnvoyTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ArgParserTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.StatisticsSystem" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.StatisticsTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.StatisticsTest.mostexpTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.StatisticsTest.maxamounttripTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.StatisticsTest.MaxtimeTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ArgParserTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.PEnvoyTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.StatisticsTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.StatisticsTest.mostexpTest" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -917,13 +896,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StatisticsTest - 2017.01.08 at 23h 54m 14s.xml">
-      <configuration name="StatisticsTest" configurationId="TestNG" />
+    <history-entry file="ArgParserTest - 2017.01.13 at 00h 29m 16s.xml">
+      <configuration name="ArgParserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StatisticsTest - 2017.01.08 at 23h 55m 40s.xml">
-      <configuration name="StatisticsTest" configurationId="TestNG" />
+    <history-entry file="PEnvoyTest - 2017.01.13 at 00h 29m 12s.xml">
+      <configuration name="PEnvoyTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StatisticsTest - 2017.01.09 at 00h 03m 26s.xml">
+    <history-entry file="StatisticsTest - 2017.01.13 at 00h 28m 59s.xml">
       <configuration name="StatisticsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="StatisticsTest_ItalyTest - 2017.01.07 at 03h 45m 47s.xml">
@@ -959,7 +938,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41798106" sideWeight="0.37335286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25974026" sideWeight="0.6266472" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25865802" sideWeight="0.6266472" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1051,9 +1030,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,9 +1080,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,16 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArgParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EExpenses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1180,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,21 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PEnvoyE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PEnvoyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1234,13 +1183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializedDataYears.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1267,26 +1209,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatisticsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/PEnvoyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="357">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OutputStatistics.java">
+    <entry file="file://$PROJECT_DIR$/src/ArgParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1446">
-          <caret line="90" column="156" selection-start-line="90" selection-start-column="156" selection-end-line="90" selection-end-column="156" />
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1295,8 +1229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JsonEnvoys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1305,11 +1239,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StatisticsSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="187">
+          <caret line="12" column="148" selection-start-line="12" selection-start-column="148" selection-end-line="12" selection-end-column="148" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatisticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializedDataYears.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PEnvoyE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="90" column="156" selection-start-line="90" selection-start-column="156" selection-end-line="90" selection-end-column="156" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OutputStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="77" column="94" selection-start-line="77" selection-start-column="94" selection-end-line="77" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,11 +1316,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>json-lib-2.4-jdk15</last-edited>
+          <last-edited>com.googlecode.json-simple:json-simple:1.1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18390805" />
+                <option value="0.2954023" />
               </list>
             </option>
           </splitter-proportions>
@@ -1379,11 +1353,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.google.code.gson:gson:2.8.0</last-edited>
+          <last-edited>org.apache.directory.studio:org.apache.commons.io:2.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18390805" />
+                <option value="0.2954023" />
               </list>
             </option>
           </splitter-proportions>
